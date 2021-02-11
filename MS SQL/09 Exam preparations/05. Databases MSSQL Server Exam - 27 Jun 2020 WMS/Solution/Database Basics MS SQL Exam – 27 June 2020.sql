@@ -291,27 +291,25 @@ CREATE FUNCTION udf_GetCost(@jobId INT)
 RETURNS DECIMAL(18,2)
 AS
 	BEGIN
-	--IF((SELECT COUNT(*) FROM Jobs WHERE JobId = @jobId) <> 1)
-	--	BEGIN
-	--		RETURN 0.00;
-	--	END
+	IF((SELECT COUNT(*) FROM Jobs WHERE JobId = @jobId) <> 1)
+		BEGIN
+			RETURN 0.00;
+		END
 
-	--DECLARE @Orders INT = (SELECT COUNT(*) FROM Orders WHERE JobId = @jobId)
-	--IF(@Orders <= 0)
-	--	BEGIN
-	--		RETURN 0.00;
-	--	END
+	DECLARE @Orders INT = (SELECT COUNT(*) FROM Orders WHERE JobId = @jobId)
+	IF(@Orders <= 0)
+		BEGIN
+			RETURN 0.00;
+		END
 
 	DECLARE @TotalCost DECIMAL(18,2) = (SELECT SUM(op.Quantity * p.Price) AS [Result]
 										FROM Jobs AS j
 										JOIN Orders AS o ON j.JobId = o.JobId
 										JOIN OrderParts AS op ON o.OrderId = op.OrderId
 										JOIN Parts AS p ON op.PartId = p.PartId
-										WHERE j.JobId = 1
+										WHERE j.JobId = @jobId
 										GROUP BY j.JobId)
-	IF(@TotalCost IS NULL)
-		SET @TotalCost = 0
-
+	
 	RETURN @TotalCost;
 	END
 GO
