@@ -40,12 +40,12 @@ JOIN LuggageTypes AS lt ON l.LuggageTypeId = lt.Id
 ORDER BY [Full Name], p.FirstName, f.Origin, f.Destination, lt.Type
 
 --10.	PSP
-SELECT p.Name, p.Seats, COUNT(t.Id) AS [Passengers Count]
+SELECT p.Name, p.Seats, COUNT(t.Id) AS [PassengersCount]
 FROM Planes AS p
 LEFT JOIN Flights AS f ON p.Id = f.PlaneId
 LEFT JOIN Tickets AS t ON f.Id = t.FlightId
 GROUP BY p.Name, p.Seats
-ORDER BY [Passengers Count] DESC, p.Seats
+ORDER BY [PassengersCount] DESC, p.Name, p.Seats
 
 
 SELECT p.Name, p.Seats, COUNT(*) AS [Passengers Count]
@@ -60,6 +60,29 @@ FROM Planes AS p
 LEFT JOIN Flights AS f ON p.Id = f.PlaneId
 LEFT JOIN Tickets AS t ON f.Id = t.FlightId
 
+SELECT * FROM Flights
+SELECT * FROM Tickets
+ORDER BY FlightId 
 
+SELECT t.Price FROM Flights AS f
+JOIN Tickets AS t ON t.FlightId = f.Id 
+WHERE Destination = 'Rancabolang' AND Origin = 'Kolyshley'
 
+SELECT f.Id FROM Flights AS f
+JOIN Tickets AS t ON t.FlightId = f.Id 
+WHERE Destination = 'Rancabolang' AND Origin = 'Kolyshley'
 
+SELECT ID FROM Flights
+WHERE Origin = 'Kolyshley' AND 
+Destination = 'Rancabolang'
+
+SELECT ID FROM Flights
+WHERE Origin = 'Kolyshley' AND 
+Destination = 'Rancabolang'
+
+DECLARE @ID INT = (SELECT ID FROM Flights
+WHERE Origin = 'Kolyshley' AND 
+Destination = 'Rancabolang')
+
+SELECT Price FROM Tickets 
+WHERE FlightId = @ID

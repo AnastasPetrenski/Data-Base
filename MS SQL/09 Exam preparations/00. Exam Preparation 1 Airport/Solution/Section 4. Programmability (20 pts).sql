@@ -1,4 +1,4 @@
-CREATE FUNCTION udf_CalculateTickets(@origin VARCHAR, @destination VARCHAR, @peopleCount INT)
+CREATE FUNCTION udf_CalculateTickets(@origin VARCHAR(50), @destination VARCHAR(50), @peopleCount INT)
 RETURNS VARCHAR(100)
 AS
 	BEGIN
@@ -25,4 +25,13 @@ AS
 
 GO
 
-EXEC udf_CalculateTickets('Kolyshley', 'Rancabolang', 33)
+EXEC udf_CalculateTickets 'Kolyshley', 'Rancabolang', 33
+
+GO
+
+--12.	Wrong Data
+CREATE PROCEDURE usp_CancelFlights
+AS
+	UPDATE Flights
+	SET DepartureTime = NULL, ArrivalTime = NULL
+	WHERE ArrivalTime > DepartureTime

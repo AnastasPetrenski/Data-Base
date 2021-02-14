@@ -130,7 +130,3 @@ WHERE JourneyId =  1
 
 DELETE FROM Journeys
 WHERE Id =  1
-
-/*
-test
-*/
