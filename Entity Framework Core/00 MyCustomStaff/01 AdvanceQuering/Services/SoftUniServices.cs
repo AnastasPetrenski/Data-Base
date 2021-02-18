@@ -17,6 +17,72 @@ namespace EF_03_Intro.Services
             this.context = context;
         }
 
+        public string GetAverageSalaryByDepartment()
+        {
+            var list = context
+                .Departments
+                .Select(d => new
+                {
+                    Department = d.Name,
+                    Average = d.Employees.Where(e => e.DepartmentId == d.DepartmentId).Average(e => e.Salary)
+                })
+                .OrderBy(d => d.Average)
+                .ToList();
+
+            foreach (var d in list)
+            {
+                sb.AppendLine($"{d.Department} {d.Average}");
+            }
+
+            return sb.ToString().TrimEnd();
+        }
+
+        public string GetEmployeeSummary()
+        {
+            var list = context
+                .Employees
+                .Select(e => new
+                {
+                    EmployeeID = e.EmployeeId,
+                    EmployeeName = e.FirstName + ' ' + e.LastName,
+                    ManagerName = e.Manager.FirstName + ' ' + e.Manager.LastName,
+                    DepartmentName = e.Department.Name
+                })
+                .OrderBy(e => e.EmployeeID)
+                .Take(50)
+                .ToList();
+
+            foreach (var e in list)
+            {
+                sb.AppendLine($"{e.EmployeeID} {e.EmployeeName} {e.ManagerName} {e.DepartmentName}");
+            }
+
+            return sb.ToString().TrimEnd();
+        }
+
+        public string GetEmployeeManager()
+        {
+            var list = context
+                .Employees
+                .Where(e => e.ManagerId == 3 || e.ManagerId == 7)
+                .Select(e => new
+                {
+                    EmployeeId = e.EmployeeId,
+                    FirstName = e.FirstName,
+                    ManagerId = e.ManagerId,
+                    ManagerName = e.Manager.FirstName
+                })
+                .OrderBy(e => e.EmployeeId)
+                .ToList();
+
+            foreach (var e in list)
+            {
+                sb.AppendLine($"{e.EmployeeId} {e.FirstName} {e.ManagerId} {e.ManagerName}");
+            }
+
+            return sb.ToString().TrimEnd();
+        }
+
         public string GetEmployee24Projects()
         {
             var list = context
