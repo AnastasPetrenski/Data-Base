@@ -20,6 +20,7 @@ namespace EF_03_Intro.Models
         [ForeignKey(nameof(EmployeeId))]
         [InverseProperty("EmployeesProjects")]
         public virtual Employee Employee { get; set; }
+
         [ForeignKey(nameof(ProjectId))]
         [InverseProperty("EmployeesProjects")]
         public virtual Project Project { get; set; }

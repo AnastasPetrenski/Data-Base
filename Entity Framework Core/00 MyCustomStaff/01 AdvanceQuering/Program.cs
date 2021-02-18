@@ -16,7 +16,7 @@ namespace EF_03_Intro
 
             //System.Console.WriteLine(softServices.GetAverageSalaryByDepartment());
 
-            System.Console.WriteLine(geoServices.GetHighestPeakInBulgaria());
+            System.Console.WriteLine(geoServices.GetContinentsAndCurrencies());
         }
     }
 }

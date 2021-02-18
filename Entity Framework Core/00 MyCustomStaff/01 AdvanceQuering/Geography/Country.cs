@@ -39,6 +39,7 @@ namespace EF_03_Intro.Geography
         [ForeignKey(nameof(ContinentCode))]
         [InverseProperty(nameof(Continent.Countries))]
         public virtual Continent ContinentCodeNavigation { get; set; }
+
         [ForeignKey(nameof(CurrencyCode))]
         [InverseProperty(nameof(Currency.Countries))]
         public virtual Currency CurrencyCodeNavigation { get; set; }
@@ -48,3 +49,4 @@ namespace EF_03_Intro.Geography
         public virtual ICollection<MountainsCountry> MountainsCountries { get; set; }
     }
 }
+

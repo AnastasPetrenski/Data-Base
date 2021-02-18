@@ -19,6 +19,7 @@ namespace EF_03_Intro.Geography
         [ForeignKey(nameof(CountryCode))]
         [InverseProperty(nameof(Country.MountainsCountries))]
         public virtual Country CountryCodeNavigation { get; set; }
+
         [ForeignKey(nameof(MountainId))]
         [InverseProperty("MountainsCountries")]
         public virtual Mountain Mountain { get; set; }
