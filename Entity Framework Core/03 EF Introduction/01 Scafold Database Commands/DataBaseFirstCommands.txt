@@ -1,0 +1,24 @@
+On Directory (shift+right mouse button)PowerShell
+- dotnet ef dbcontext scaffold "Server=.;Database=SoftUni;Integrated Security=true;" 
+	Missing required argument <'Provider'>
+
+- dotnet ef dbcontext scaffold "Server=.;Database=SoftUni;Integrated Security=true;" Microsoft.EntityFrameworkCore.SqlServer
+	install Microsoft.EntityFramework.Core.Design
+
+- dotnet ef dbcontext scaffold "Server=.;Database=SoftUni;Integrated Security=true;"  Microsoft.EntityFrameworkCore.SqlServer -o Models -f -d
+
+	-o Models => choose new folder, where to extract the code
+	-f 	=> force the program to override existing code/files
+	-d 	=> generate less code and add atributte
+	-provider  => Microsoft.EntityFrameworkCore.SqlServer
+
+-From VS2019 Package Manager Console
+
+Install-Package Microsoft.EntityFrameworkCore.Tools -v 3.1.3
+Install-Package Microsoft.EntityFrameworkCore.SqlServer -v 3.1.3
+Install-Package Microsoft.EntityFrameworkCore.SqlServer.Design 
+
+Scaffold-DbContext -Connection "Server=.;Database=SoftUni;Integrated Security=True;" -Provider Microsoft.EntityFrameworkCore.SqlServer -OutputDir Data/Models
+
+Uninstall-Package Microsoft.EntityFrameworkCore.Tools -r
+Uninstall-Package Microsoft.EntityFrameworkCore.SqlServer.Design -RemoveDependencies
