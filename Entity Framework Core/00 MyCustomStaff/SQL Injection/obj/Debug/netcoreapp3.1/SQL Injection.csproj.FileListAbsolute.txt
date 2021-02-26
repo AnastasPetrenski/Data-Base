@@ -1,0 +1,88 @@
+C:\Users\anastas\source\repos\01 EF ADO\SQL Injection\bin\Debug\netcoreapp3.1\01 EF ADO.exe
+C:\Users\anastas\source\repos\01 EF ADO\SQL Injection\bin\Debug\netcoreapp3.1\SQL Injection.exe
+C:\Users\anastas\source\repos\01 EF ADO\SQL Injection\bin\Debug\netcoreapp3.1\SQL Injection.deps.json
+C:\Users\anastas\source\repos\01 EF ADO\SQL Injection\bin\Debug\netcoreapp3.1\SQL Injection.runtimeconfig.json
+C:\Users\anastas\source\repos\01 EF ADO\SQL Injection\bin\Debug\netcoreapp3.1\SQL Injection.runtimeconfig.dev.json
+C:\Users\anastas\source\repos\01 EF ADO\SQL Injection\bin\Debug\netcoreapp3.1\SQL Injection.dll
+C:\Users\anastas\source\repos\01 EF ADO\SQL Injection\bin\Debug\netcoreapp3.1\SQL Injection.pdb
+C:\Users\anastas\source\repos\01 EF ADO\SQL Injection\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\anastas\source\repos\01 EF ADO\SQL Injection\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\anastas\source\repos\01 EF ADO\SQL Injection\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\anastas\source\repos\01 EF ADO\SQL Injection\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\anastas\source\repos\01 EF ADO\SQL Injection\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\anastas\source\repos\01 EF ADO\SQL Injection\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\anastas\source\repos\01 EF ADO\SQL Injection\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\anastas\source\repos\01 EF ADO\SQL Injection\bin\Debug\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
+C:\Users\anastas\source\repos\01 EF ADO\SQL Injection\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\anastas\source\repos\01 EF ADO\SQL Injection\bin\Debug\netcoreapp3.1\System.Drawing.Common.dll
+C:\Users\anastas\source\repos\01 EF ADO\SQL Injection\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\anastas\source\repos\01 EF ADO\SQL Injection\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\anastas\source\repos\01 EF ADO\SQL Injection\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\anastas\source\repos\01 EF ADO\SQL Injection\bin\Debug\netcoreapp3.1\System.Security.Permissions.dll
+C:\Users\anastas\source\repos\01 EF ADO\SQL Injection\bin\Debug\netcoreapp3.1\System.Windows.Extensions.dll
+C:\Users\anastas\source\repos\01 EF ADO\SQL Injection\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\anastas\source\repos\01 EF ADO\SQL Injection\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\anastas\source\repos\01 EF ADO\SQL Injection\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\anastas\source\repos\01 EF ADO\SQL Injection\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\anastas\source\repos\01 EF ADO\SQL Injection\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\anastas\source\repos\01 EF ADO\SQL Injection\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\anastas\source\repos\01 EF ADO\SQL Injection\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\anastas\source\repos\01 EF ADO\SQL Injection\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\anastas\source\repos\01 EF ADO\SQL Injection\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\anastas\source\repos\01 EF ADO\SQL Injection\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\anastas\source\repos\01 EF ADO\SQL Injection\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\anastas\source\repos\01 EF ADO\SQL Injection\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\anastas\source\repos\01 EF ADO\SQL Injection\bin\Debug\netcoreapp3.1\01 EF ADO.dll
+C:\Users\anastas\source\repos\01 EF ADO\SQL Injection\bin\Debug\netcoreapp3.1\01 EF ADO.pdb
+C:\Users\anastas\source\repos\01 EF ADO\SQL Injection\obj\Debug\netcoreapp3.1\SQL Injection.csprojAssemblyReference.cache
+C:\Users\anastas\source\repos\01 EF ADO\SQL Injection\obj\Debug\netcoreapp3.1\SQL Injection.AssemblyInfoInputs.cache
+C:\Users\anastas\source\repos\01 EF ADO\SQL Injection\obj\Debug\netcoreapp3.1\SQL Injection.AssemblyInfo.cs
+C:\Users\anastas\source\repos\01 EF ADO\SQL Injection\obj\Debug\netcoreapp3.1\SQL Injection.csproj.CoreCompileInputs.cache
+C:\Users\anastas\source\repos\01 EF ADO\SQL Injection\obj\Debug\netcoreapp3.1\SQL Injection.csproj.CopyComplete
+C:\Users\anastas\source\repos\01 EF ADO\SQL Injection\obj\Debug\netcoreapp3.1\SQL Injection.dll
+C:\Users\anastas\source\repos\01 EF ADO\SQL Injection\obj\Debug\netcoreapp3.1\SQL Injection.pdb
+C:\Users\anastas\source\repos\01 EF ADO\SQL Injection\obj\Debug\netcoreapp3.1\SQL Injection.genruntimeconfig.cache
+C:\Users\anastas\source\repos\Entity Framework\SQL Injection\bin\Debug\netcoreapp3.1\01 EF ADO.exe
+C:\Users\anastas\source\repos\Entity Framework\SQL Injection\bin\Debug\netcoreapp3.1\SQL Injection.exe
+C:\Users\anastas\source\repos\Entity Framework\SQL Injection\bin\Debug\netcoreapp3.1\SQL Injection.deps.json
+C:\Users\anastas\source\repos\Entity Framework\SQL Injection\bin\Debug\netcoreapp3.1\SQL Injection.runtimeconfig.json
+C:\Users\anastas\source\repos\Entity Framework\SQL Injection\bin\Debug\netcoreapp3.1\SQL Injection.runtimeconfig.dev.json
+C:\Users\anastas\source\repos\Entity Framework\SQL Injection\bin\Debug\netcoreapp3.1\SQL Injection.dll
+C:\Users\anastas\source\repos\Entity Framework\SQL Injection\bin\Debug\netcoreapp3.1\SQL Injection.pdb
+C:\Users\anastas\source\repos\Entity Framework\SQL Injection\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\anastas\source\repos\Entity Framework\SQL Injection\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\anastas\source\repos\Entity Framework\SQL Injection\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\anastas\source\repos\Entity Framework\SQL Injection\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\anastas\source\repos\Entity Framework\SQL Injection\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\anastas\source\repos\Entity Framework\SQL Injection\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\anastas\source\repos\Entity Framework\SQL Injection\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\anastas\source\repos\Entity Framework\SQL Injection\bin\Debug\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
+C:\Users\anastas\source\repos\Entity Framework\SQL Injection\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\anastas\source\repos\Entity Framework\SQL Injection\bin\Debug\netcoreapp3.1\System.Drawing.Common.dll
+C:\Users\anastas\source\repos\Entity Framework\SQL Injection\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\anastas\source\repos\Entity Framework\SQL Injection\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\anastas\source\repos\Entity Framework\SQL Injection\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\anastas\source\repos\Entity Framework\SQL Injection\bin\Debug\netcoreapp3.1\System.Security.Permissions.dll
+C:\Users\anastas\source\repos\Entity Framework\SQL Injection\bin\Debug\netcoreapp3.1\System.Windows.Extensions.dll
+C:\Users\anastas\source\repos\Entity Framework\SQL Injection\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\anastas\source\repos\Entity Framework\SQL Injection\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\anastas\source\repos\Entity Framework\SQL Injection\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\anastas\source\repos\Entity Framework\SQL Injection\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\anastas\source\repos\Entity Framework\SQL Injection\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\anastas\source\repos\Entity Framework\SQL Injection\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\anastas\source\repos\Entity Framework\SQL Injection\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\anastas\source\repos\Entity Framework\SQL Injection\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\anastas\source\repos\Entity Framework\SQL Injection\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\anastas\source\repos\Entity Framework\SQL Injection\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\anastas\source\repos\Entity Framework\SQL Injection\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\anastas\source\repos\Entity Framework\SQL Injection\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\anastas\source\repos\Entity Framework\SQL Injection\bin\Debug\netcoreapp3.1\01 EF ADO.dll
+C:\Users\anastas\source\repos\Entity Framework\SQL Injection\bin\Debug\netcoreapp3.1\01 EF ADO.pdb
+C:\Users\anastas\source\repos\Entity Framework\SQL Injection\obj\Debug\netcoreapp3.1\SQL Injection.csprojAssemblyReference.cache
+C:\Users\anastas\source\repos\Entity Framework\SQL Injection\obj\Debug\netcoreapp3.1\SQL Injection.AssemblyInfoInputs.cache
+C:\Users\anastas\source\repos\Entity Framework\SQL Injection\obj\Debug\netcoreapp3.1\SQL Injection.AssemblyInfo.cs
+C:\Users\anastas\source\repos\Entity Framework\SQL Injection\obj\Debug\netcoreapp3.1\SQL Injection.csproj.CoreCompileInputs.cache
+C:\Users\anastas\source\repos\Entity Framework\SQL Injection\obj\Debug\netcoreapp3.1\SQL Injection.csproj.CopyComplete
+C:\Users\anastas\source\repos\Entity Framework\SQL Injection\obj\Debug\netcoreapp3.1\SQL Injection.dll
+C:\Users\anastas\source\repos\Entity Framework\SQL Injection\obj\Debug\netcoreapp3.1\SQL Injection.pdb
+C:\Users\anastas\source\repos\Entity Framework\SQL Injection\obj\Debug\netcoreapp3.1\SQL Injection.genruntimeconfig.cache
