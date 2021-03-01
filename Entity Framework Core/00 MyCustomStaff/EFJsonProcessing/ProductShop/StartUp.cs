@@ -11,6 +11,7 @@ using ProductShop.Data;
 using ProductShop.Models;
 using ProductShop.ModelsDTO;
 using ProductShop.ModelsDTO.GetSoldProducts;
+using ProductShop.ModelsDTO.GetUsersAndProducts;
 
 namespace ProductShop
 {
@@ -276,6 +277,7 @@ namespace ProductShop
 
             string json = JsonConvert.SerializeObject(usersSoldProducts, Formatting.Indented);
 
+            //AutoMapping With DTO
             var usersSoldProductsDTO = context.Users
                                         .Where(u => u.ProductsSold.Any(x => x.Buyer != null))
                                         .OrderBy(u => u.LastName)
@@ -307,6 +309,16 @@ namespace ProductShop
                                 .ToArray();
 
             var json = JsonConvert.SerializeObject(categories, Formatting.Indented);
+
+            //AutoMapping With DTO
+            var categoriesDTO = context.Categories
+                                    .ProjectTo<CategoriesByProductsCountDTO>(mapper.ConfigurationProvider)
+                                    .OrderByDescending(x => x.ProductsCount)
+                                    .ToArray();
+
+            var categoriesJSON = JsonConvert.SerializeObject(categoriesDTO, Formatting.Indented);
+
+            File.WriteAllText(Results + "/categories-by-products-count.json", categoriesJSON);
 
             return json;
         }
@@ -349,6 +361,21 @@ namespace ProductShop
             };
 
             var json = JsonConvert.SerializeObject(result, settings);
+
+            //AutoMapping With DTO
+            var usersDTO = context.Users
+                            .Where(u => u.ProductsSold.Any(p => p.BuyerId != null))
+                            .ProjectTo<SoldedProductsDTO>(mapper.ConfigurationProvider)
+                            .OrderByDescending(u => u.Count)
+                            .ToArray();
+
+
+
+            //var usersResult = new
+            //{
+            //    usersCount = usersDTO.Count(),
+            //    users = usersDTO
+            //};
 
             return json;
         }

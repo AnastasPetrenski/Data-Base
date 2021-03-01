@@ -1,8 +1,5 @@
 ﻿using Newtonsoft.Json;
 using ProductShop.Models.Enumerators;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace ProductShop.Models
 {

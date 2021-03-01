@@ -4,7 +4,9 @@ using ProductShop.Models;
 using ProductShop.Models.Enumerators;
 using ProductShop.ModelsDTO;
 using ProductShop.ModelsDTO.GetSoldProducts;
+using ProductShop.ModelsDTO.GetUsersAndProducts;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace ProductShop
 {
@@ -12,10 +14,6 @@ namespace ProductShop
     {
         public ProductShopProfile()
         {
-            //Products
-            this.CreateMap<Product, ListOfProductsInRangeDTO>()
-                .ForMember(x => x.SellerName, y =>
-                    y.MapFrom(s => s.Seller.FirstName + " " + s.Seller.LastName));
 
             //UserInfos
             this.CreateMap<JToken, UserInfo>()
@@ -30,9 +28,38 @@ namespace ProductShop
                 .ForMember(x => x.BuyerLastName, y => y.MapFrom(s => s.Buyer.LastName));
 
             this.CreateMap<User, UserWithSoldProducts>()
-                .ForMember(x => x.SoldProducts, y => y.MapFrom(s => s.ProductsSold));
+                .ForMember(x => x.SoldProducts, y => y.MapFrom(s => s.ProductsSold.Where(x => x.BuyerId != null)));
 
+            //CategoriesByProductsCount
+            this.CreateMap<Category, CategoriesByProductsCountDTO>()
+                .ForMember(x => x.Category, y => y.MapFrom(s => s.Name))
+                .ForMember(x => x.ProductsCount, y => y.MapFrom(s => s.CategoryProducts.Count))
+                .ForMember(x => x.AveragePrice, y => y
+                    .MapFrom(s => s.CategoryProducts.Average(p => p.Product.Price).ToString("F2")))
+                .ForMember(x => x.TotalRevenue, y => y
+                    .MapFrom(s => s.CategoryProducts.Sum(p => p.Product.Price).ToString("F2")));
 
+            //Products
+            this.CreateMap<Product, ListOfProductsInRangeDTO>()
+                .ForMember(x => x.SellerName, y =>
+                    y.MapFrom(s => s.Seller.FirstName + " " + s.Seller.LastName));
+
+            //UsersWithSoldedProducts
+            //this.CreateMap<User, UsersWithSoldedProductsDTO>();
+
+            this.CreateMap<User, SoldedProductsDTO>()
+                .ForMember(x => x.Count, y => y.MapFrom(s => s.ProductsSold.Count(p => p.BuyerId != null)))
+                .ForMember(x => x.ProductsSold, y => y.MapFrom(s => s.ProductsSold.Where(p => p.BuyerId != null)));
+
+            this.CreateMap<UsersWithSoldedProductsDTO, UsersProductsDTO>()
+                .ForMember(x => x.UsersCount, y => y.MapFrom(s => s.UserSoldedProducts.Count()))
+                .ForMember(x => x.UsersProducts, y => y.MapFrom(s => s.UserSoldedProducts));
+
+            this.CreateMap<SoldedProductsDTO, UsersProductsDTO>()
+                .ForMember(x => x.UsersCount, y => y.MapFrom(s => s.Count))
+                .ForMember(x => x.UsersProducts, y => y.MapFrom(s => s.ProductsSold));
+
+            this.CreateMap<ListOfProductsInRangeDTO, UsersWithSoldedProductsDTO>();
         }
     }
 
