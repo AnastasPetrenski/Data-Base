@@ -1,5 +1,6 @@
 ﻿using ProductShop.Data;
 using ProductShop.Dtos.Export;
+using ProductShop.Dtos.Export.ExportUserProducts;
 using ProductShop.Dtos.Import;
 using ProductShop.Models;
 using ProductShop.XMLHelper;
@@ -35,19 +36,81 @@ namespace ProductShop
             //var categoryResult = ImportCategories(context, inputCategoriesXML);
             //var categoryProductResult = ImportCategoryProducts(context, inputCategoriesProductsXML);
 
-            var result = GetSoldProducts(context);
+            var result = GetUsersWithProducts(context);
 
             if (!Directory.Exists("../../../Result"))
             {
                 Directory.CreateDirectory("../../../Result");
             }
 
-            File.WriteAllText("../../../Result/users-sold-products.xml", result);
+            File.WriteAllText("../../../Result/users-and-products.xml", result);
+        }
+
+        public static string GetUsersWithProducts(ProductShopContext context)
+        {
+            var users = context.Users
+                               .Where(u => u.ProductsSold.Any(p => p.BuyerId != null))
+                               .OrderByDescending(x => x.ProductsSold.Count)
+                               .Take(10)
+                               .Select(u => new ExportUserDTO
+                               {
+                                   FirstName = u.FirstName,
+                                   LastName = u.LastName,
+                                   Age = u.Age,
+                                   SoldProducts = new ExportProductCountDTO
+                                   {
+                                       Count = u.ProductsSold.Count,
+                                       Products = u.ProductsSold.Select(x => new ExportProductsDTO
+                                       {
+                                           Name = x.Name,
+                                           Price = x.Price
+                                       })
+                                       .OrderByDescending(p => p.Price)
+                                       .ToArray()
+                                   }
+                               })
+                               .ToArray();
+
+            var usersProducts = new ExportUserCountDTO
+            {
+                Count = context.Users.Count(p => p.ProductsSold.Any()),
+                Users = users
+            };
+
+            var result = XmlConverter.Serialize(usersProducts, "Users");
+
+            return result;
         }
 
         public static string GetCategoriesByProductsCount(ProductShopContext context)
         {
+            var categories = context.Categories
+                                    .Select(p => new ExportCategories
+                                    {
+                                        Name = p.Name,
+                                        Count = p.CategoryProducts.Count,
+                                        AveragePrice = p.CategoryProducts
+                                                        .Average(x => x.Product.Price),
+                                        TotalRevenue = p.CategoryProducts
+                                                        .Where(p => p.Product.BuyerId != null)
+                                                        .Sum(p => p.Product.Price)
+                                    })
+                                    .OrderByDescending(p => p.Count)
+                                    .ThenBy(p => p.TotalRevenue)
+                                    .ToArray();
 
+            var root = "Categories";
+            var result = XmlConverter.Serialize(categories, root);
+
+            //Test
+            var ser = new XmlSerializer(typeof(ExportCategories[]), new XmlRootAttribute(root));
+            var namespaces = new XmlSerializerNamespaces(new[] { new XmlQualifiedName("", "") });
+            using (TextWriter writer = new StreamWriter("../../../Result/Test.xml"))
+            {
+                ser.Serialize(writer, categories, namespaces);
+            }
+
+            return result;
         }
 
         public static string GetSoldProducts(ProductShopContext context)
@@ -95,7 +158,7 @@ namespace ProductShop
 
             var root = "Products";
 
-            var result = XMLHelper.XmlConverter.Serialize(products, root);
+            var result = XmlConverter.Serialize(products, root);
 
             return result;
         }
@@ -249,13 +312,5 @@ namespace ProductShop
             return xmlNamespaces;
         }
 
-        //var builder = new StringBuilder();
-        //using var writer = new StringWriter(builder);
-        //Stream stream = new MemoryStream();
-
-        //    using (TextWriter text = new StreamWriter(stream, Encoding.UTF8))
-        //    {
-        //        serializer.Serialize(stream, writer);
-        //    }
     }
 }
