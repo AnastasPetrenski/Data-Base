@@ -1,0 +1,12 @@
+C:\Users\anastas\Desktop\Задачи от курс\SoftUni\07 DataBase\Entity Framework Core\06 Advanced Quering\BookShop.Data\bin\Debug\netcoreapp3.1\BookShop.Data.deps.json
+C:\Users\anastas\Desktop\Задачи от курс\SoftUni\07 DataBase\Entity Framework Core\06 Advanced Quering\BookShop.Data\bin\Debug\netcoreapp3.1\BookShop.Data.dll
+C:\Users\anastas\Desktop\Задачи от курс\SoftUni\07 DataBase\Entity Framework Core\06 Advanced Quering\BookShop.Data\bin\Debug\netcoreapp3.1\BookShop.Data.pdb
+C:\Users\anastas\Desktop\Задачи от курс\SoftUni\07 DataBase\Entity Framework Core\06 Advanced Quering\BookShop.Data\bin\Debug\netcoreapp3.1\BookShop.Models.dll
+C:\Users\anastas\Desktop\Задачи от курс\SoftUni\07 DataBase\Entity Framework Core\06 Advanced Quering\BookShop.Data\bin\Debug\netcoreapp3.1\BookShop.Models.pdb
+C:\Users\anastas\Desktop\Задачи от курс\SoftUni\07 DataBase\Entity Framework Core\06 Advanced Quering\BookShop.Data\obj\Debug\netcoreapp3.1\BookShop.Data.csprojAssemblyReference.cache
+C:\Users\anastas\Desktop\Задачи от курс\SoftUni\07 DataBase\Entity Framework Core\06 Advanced Quering\BookShop.Data\obj\Debug\netcoreapp3.1\BookShop.Data.AssemblyInfoInputs.cache
+C:\Users\anastas\Desktop\Задачи от курс\SoftUni\07 DataBase\Entity Framework Core\06 Advanced Quering\BookShop.Data\obj\Debug\netcoreapp3.1\BookShop.Data.AssemblyInfo.cs
+C:\Users\anastas\Desktop\Задачи от курс\SoftUni\07 DataBase\Entity Framework Core\06 Advanced Quering\BookShop.Data\obj\Debug\netcoreapp3.1\BookShop.Data.csproj.CoreCompileInputs.cache
+C:\Users\anastas\Desktop\Задачи от курс\SoftUni\07 DataBase\Entity Framework Core\06 Advanced Quering\BookShop.Data\obj\Debug\netcoreapp3.1\BookShop.Data.csproj.CopyComplete
+C:\Users\anastas\Desktop\Задачи от курс\SoftUni\07 DataBase\Entity Framework Core\06 Advanced Quering\BookShop.Data\obj\Debug\netcoreapp3.1\BookShop.Data.dll
+C:\Users\anastas\Desktop\Задачи от курс\SoftUni\07 DataBase\Entity Framework Core\06 Advanced Quering\BookShop.Data\obj\Debug\netcoreapp3.1\BookShop.Data.pdb
