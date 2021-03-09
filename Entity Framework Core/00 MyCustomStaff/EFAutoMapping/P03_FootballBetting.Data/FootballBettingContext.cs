@@ -5,17 +5,15 @@ using System;
 
 namespace P03_FootballBetting.Data
 {
-    public class FootballBettingContext : IdentityDbContext
+    public class FootballBettingContext : DbContext
     {
         public FootballBettingContext()
         {
-
         }
 
-        public FootballBettingContext(DbContextOptions options)
+        public FootballBettingContext(DbContextOptions<FootballBettingContext> options)
             : base(options)
         {
-
         }
 
         public DbSet<Bet> Bets { get; set; }

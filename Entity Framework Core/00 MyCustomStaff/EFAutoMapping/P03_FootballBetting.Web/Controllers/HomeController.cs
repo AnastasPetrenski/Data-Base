@@ -2,6 +2,7 @@
 using System.Linq;
 using System.Security.Cryptography;
 using System.Text;
+using AutoMapper;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
@@ -11,6 +12,7 @@ using P03_FootballBetting.Data;
 using P03_FootballBetting.Data.Models;
 using P03_FootballBetting.Web.Common;
 using P03_FootballBetting.Web.Models;
+using P03_FootballBetting.Web.ViewModels.Homes;
 
 namespace P03_FootballBetting.Web.Controllers
 {
@@ -18,34 +20,20 @@ namespace P03_FootballBetting.Web.Controllers
     {
         private readonly ILogger<HomeController> logger;
         private readonly FootballBettingContext context;
-        
-        //new
-        private readonly SignInManager<User> signInManager;
-        private readonly UserManager<User> userManager;
-        private readonly IConfiguration config;
-
+        private readonly IMapper mapper;
+       
         public HomeController(ILogger<HomeController> logger,
-            SignInManager<User> signInManager,
-            UserManager<User> userManager,
-            IConfiguration config)
+            FootballBettingContext context,
+            IMapper mapper)
         {
             this.logger = logger;
-            this.signInManager = signInManager;
-            this.userManager = userManager;
-            this.config = config;
+            this.context = context;
+            this.mapper = mapper;
         }
 
         public IActionResult Index()
-        {
-            if (Session["UserId"] != null)
-            {
-                return this.View();
-            }
-            else
-            {
-                return RedirectToAction("Login", "Home");
-            }
-
+        {        
+            return this.View();
         }
 
         public IActionResult Register()
@@ -53,12 +41,27 @@ namespace P03_FootballBetting.Web.Controllers
             return this.View();
         }
 
+        public IActionResult Loged(RegisterConnectionViewModel model)
+        {
+            var user = this.context.Users.Where(x => x.Password == Sha512Generator.Sha512(model.Password) &&
+                                                     x.Username == model.User).FirstOrDefault();
+
+            if (user != null)
+            {
+                return this.View();
+            }
+
+            return RedirectToAction("Index");
+        }
+
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Register(User user)
+        public IActionResult Create(RegisterUserViewModel model)
         {
             if (ModelState.IsValid)
             {
+                var user = this.mapper.Map<User>(model);
+
                 var check = context.Users.FirstOrDefault(u => u.Email == user.Email);
                 if (check == null)
                 {
@@ -66,6 +69,7 @@ namespace P03_FootballBetting.Web.Controllers
                     context.Users.Add(user);
                     context.SaveChanges();
 
+                    //ViewBag.message = "User created";
                     return RedirectToAction("Index");
                 }
             }
@@ -85,10 +89,10 @@ namespace P03_FootballBetting.Web.Controllers
             {
                 var pass = Sha512Generator.Sha512(password);
                 var data = context.Users.Where(u => u.Email.Equals(email) && u.Password.Equals(pass)).ToList();
-                if (data.Count == 1)
-                {
-                    Session["FullName"] = data.FirstOrDefault().Username;
-                }
+                //if (data.Count == 1)
+                //{
+                //    Session["FullName"] = data.FirstOrDefault().Username;
+                //}
 
             }
             return this.View();

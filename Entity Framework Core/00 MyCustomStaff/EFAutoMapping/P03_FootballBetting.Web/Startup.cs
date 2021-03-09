@@ -6,6 +6,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using P03_FootballBetting.Data;
+using P03_FootballBetting.Data.Models;
 using System;
 
 namespace P03_FootballBetting.Web
@@ -25,11 +26,12 @@ namespace P03_FootballBetting.Web
             services.AddDbContext<FootballBettingContext>(options =>
                 //options.UseSqlServer(ConfigurationConnection.ConnectionString));
                 options.UseSqlServer(
-                Configuration.GetConnectionString("DefaultConnection"))); //<= appsettings.json
+                    Configuration.GetConnectionString("DefaultConnection"))); //<= appsettings.json
 
-           
-            services.AddIdentityCore<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
-                .AddEntityFrameworkStores<FootballBettingContext>();
+            //services.AddDefaultIdentity<IdentityUser>
+
+            //services.AddIdentityCore<User>(options => options.SignIn.RequireConfirmedAccount = false)
+            //    .AddEntityFrameworkStores<FootballBettingContext>();
 
             services.AddControllersWithViews()
                 .AddRazorRuntimeCompilation();
@@ -45,6 +47,13 @@ namespace P03_FootballBetting.Web
                 options.IdleTimeout = TimeSpan.FromSeconds(10);
                 options.Cookie.HttpOnly = true;
                 options.Cookie.IsEssential = true;
+            });
+
+            services.ConfigureApplicationCookie(options =>
+            {
+                options.Cookie.HttpOnly = true;
+                options.Cookie.Expiration = TimeSpan.FromDays(5);
+                options.LoginPath = "/Account/Login";
             });
 
         }

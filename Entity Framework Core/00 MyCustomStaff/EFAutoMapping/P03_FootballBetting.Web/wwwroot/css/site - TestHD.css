@@ -72,13 +72,33 @@ body {
 }
 
 #password label {
+    text-emphasis: none;
+    text-size-adjust: none;
     margin-left: 100px;
     color: aliceblue;
 }
 
-#password input{
-    
-    margin-left: 9px;
+#password input {
+    margin-left: 2px;
+    -webkit-text-size-adjust: auto;
+}
+
+#login {
+    margin-left: 150px;
+}
+
+
+#login input {
+    margin-left: 200px;
+    /*make text stars*/
+    -webkit-text-security: disc;
+    /*prevent copy text*/
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: moz-none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 .footer {

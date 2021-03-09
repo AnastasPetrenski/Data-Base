@@ -11,6 +11,10 @@ namespace P03_FootballBetting.Web.Common
     {
         public static string Sha512(string password)
         {
+            if (string.IsNullOrWhiteSpace(password))
+            {
+                return null;
+            }
             var bytes = Encoding.UTF8.GetBytes(password);
             using var hash = SHA512.Create();
 

@@ -13,6 +13,7 @@ using P03_FootballBetting.Web.Common;
 using System;
 using System.Security.Cryptography;
 using System.Text;
+using P03_FootballBetting.Web.ViewModels.Homes;
 
 namespace P03_FootballBetting.Web.MappingConfigurations
 {
@@ -26,7 +27,8 @@ namespace P03_FootballBetting.Web.MappingConfigurations
                 .ForMember(x => x.Password, y => y.MapFrom(s => Sha512Generator.Sha512(s.Password)));
 
             //DisplayAllUserInfo
-            this.CreateMap<User, AllUsersViewModel>();
+            this.CreateMap<User, AllUsersViewModel>()
+                .ForMember(x => x.UserId, y => y.MapFrom(s => s.UserId));
 
             //Positions
             this.CreateMap<Position, CreatePositionViewModel>();
@@ -117,6 +119,9 @@ namespace P03_FootballBetting.Web.MappingConfigurations
                 .ForMember(x => x.HomeTeam, y => y.MapFrom(s => s.HomeTeam.Name))
                 .ForMember(x => x.AwayTeam, y => y.MapFrom(s => s.AwayTeam.Name))
                 .ForMember(x => x.DataTime, y => y.MapFrom(s => s.DateTime));
+
+            //HomeLoginRegister
+            this.CreateMap<RegisterUserViewModel, User>();
         }
 
     }
