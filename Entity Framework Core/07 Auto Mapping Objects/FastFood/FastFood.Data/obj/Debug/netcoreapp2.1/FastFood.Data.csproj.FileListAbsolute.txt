@@ -1,0 +1,15 @@
+C:\Users\anastas\Desktop\Задачи от курс\SoftUni\07 DataBase\Entity Framework Core\07 Auto Mapping Objects\FastFood\FastFood.Data\bin\Debug\netcoreapp2.1\FastFood.Data.deps.json
+C:\Users\anastas\Desktop\Задачи от курс\SoftUni\07 DataBase\Entity Framework Core\07 Auto Mapping Objects\FastFood\FastFood.Data\bin\Debug\netcoreapp2.1\FastFood.Data.runtimeconfig.json
+C:\Users\anastas\Desktop\Задачи от курс\SoftUni\07 DataBase\Entity Framework Core\07 Auto Mapping Objects\FastFood\FastFood.Data\bin\Debug\netcoreapp2.1\FastFood.Data.runtimeconfig.dev.json
+C:\Users\anastas\Desktop\Задачи от курс\SoftUni\07 DataBase\Entity Framework Core\07 Auto Mapping Objects\FastFood\FastFood.Data\bin\Debug\netcoreapp2.1\FastFood.Data.dll
+C:\Users\anastas\Desktop\Задачи от курс\SoftUni\07 DataBase\Entity Framework Core\07 Auto Mapping Objects\FastFood\FastFood.Data\bin\Debug\netcoreapp2.1\FastFood.Data.pdb
+C:\Users\anastas\Desktop\Задачи от курс\SoftUni\07 DataBase\Entity Framework Core\07 Auto Mapping Objects\FastFood\FastFood.Data\bin\Debug\netcoreapp2.1\FastFood.Models.dll
+C:\Users\anastas\Desktop\Задачи от курс\SoftUni\07 DataBase\Entity Framework Core\07 Auto Mapping Objects\FastFood\FastFood.Data\bin\Debug\netcoreapp2.1\FastFood.Models.pdb
+C:\Users\anastas\Desktop\Задачи от курс\SoftUni\07 DataBase\Entity Framework Core\07 Auto Mapping Objects\FastFood\FastFood.Data\obj\Debug\netcoreapp2.1\FastFood.Data.csprojAssemblyReference.cache
+C:\Users\anastas\Desktop\Задачи от курс\SoftUni\07 DataBase\Entity Framework Core\07 Auto Mapping Objects\FastFood\FastFood.Data\obj\Debug\netcoreapp2.1\FastFood.Data.AssemblyInfoInputs.cache
+C:\Users\anastas\Desktop\Задачи от курс\SoftUni\07 DataBase\Entity Framework Core\07 Auto Mapping Objects\FastFood\FastFood.Data\obj\Debug\netcoreapp2.1\FastFood.Data.AssemblyInfo.cs
+C:\Users\anastas\Desktop\Задачи от курс\SoftUni\07 DataBase\Entity Framework Core\07 Auto Mapping Objects\FastFood\FastFood.Data\obj\Debug\netcoreapp2.1\FastFood.Data.csproj.CoreCompileInputs.cache
+C:\Users\anastas\Desktop\Задачи от курс\SoftUni\07 DataBase\Entity Framework Core\07 Auto Mapping Objects\FastFood\FastFood.Data\obj\Debug\netcoreapp2.1\FastFood.Data.csproj.CopyComplete
+C:\Users\anastas\Desktop\Задачи от курс\SoftUni\07 DataBase\Entity Framework Core\07 Auto Mapping Objects\FastFood\FastFood.Data\obj\Debug\netcoreapp2.1\FastFood.Data.dll
+C:\Users\anastas\Desktop\Задачи от курс\SoftUni\07 DataBase\Entity Framework Core\07 Auto Mapping Objects\FastFood\FastFood.Data\obj\Debug\netcoreapp2.1\FastFood.Data.pdb
+C:\Users\anastas\Desktop\Задачи от курс\SoftUni\07 DataBase\Entity Framework Core\07 Auto Mapping Objects\FastFood\FastFood.Data\obj\Debug\netcoreapp2.1\FastFood.Data.genruntimeconfig.cache
