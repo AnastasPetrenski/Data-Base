@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "h3hjwxGvg94Yre2NrX3zoHOmslHeBESX0+c1z3/2H8lhJ2+SSsIVbPCnoEwOFa3J4W+ZzddrpKTuVJN4cVGkOw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\anastas\\Desktop\\Задачи от курс\\SoftUni\\08 EF Core\\Entity Framework Core\\Exams\\C# DB Advenced Exam - 5 December 2017\\C# DB Advenced Exam - 5 December 2017 - Skeleton\\Stations.Models\\Stations.Models.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\anastas\\.nuget\\packages\\microsoft.netcore.app\\2.0.0\\microsoft.netcore.app.2.0.0.nupkg.sha512",
+    "C:\\Users\\anastas\\.nuget\\packages\\microsoft.netcore.dotnetapphost\\2.0.0\\microsoft.netcore.dotnetapphost.2.0.0.nupkg.sha512",
+    "C:\\Users\\anastas\\.nuget\\packages\\microsoft.netcore.dotnethostpolicy\\2.0.0\\microsoft.netcore.dotnethostpolicy.2.0.0.nupkg.sha512",
+    "C:\\Users\\anastas\\.nuget\\packages\\microsoft.netcore.dotnethostresolver\\2.0.0\\microsoft.netcore.dotnethostresolver.2.0.0.nupkg.sha512",
+    "C:\\Users\\anastas\\.nuget\\packages\\microsoft.netcore.platforms\\2.0.0\\microsoft.netcore.platforms.2.0.0.nupkg.sha512",
+    "C:\\Users\\anastas\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
