@@ -1,10 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Collections.Generic;
 
 namespace Stations.DataProcessor.Dto.Import
 {
-    class TrainDto
+    public class TrainDto
     {
+        public string TrainNumber { get; set; }
+
+        public string Type { get; set; }
+
+        public ICollection<TrainSeatDto> Seats { get; set; }
     }
 }

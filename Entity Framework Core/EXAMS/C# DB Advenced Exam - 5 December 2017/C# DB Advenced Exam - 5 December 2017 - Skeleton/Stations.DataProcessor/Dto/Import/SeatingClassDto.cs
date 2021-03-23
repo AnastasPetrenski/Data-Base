@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Stations.DataProcessor.Dto.Import
+﻿namespace Stations.DataProcessor.Dto.Import
 {
     public class SeatingClassDto
     {
