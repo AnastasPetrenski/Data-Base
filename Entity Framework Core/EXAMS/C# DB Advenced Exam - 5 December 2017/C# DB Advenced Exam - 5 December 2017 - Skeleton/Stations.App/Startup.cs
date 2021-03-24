@@ -11,7 +11,7 @@ namespace Stations.App
         public static void Main(string[] args)
         {
             var context = new StationsDbContext();
-            //ResetDatabase(context);
+            ResetDatabase(context);
 
             Console.WriteLine("Database Reset.");
 
@@ -20,36 +20,36 @@ namespace Stations.App
 
             ImportEntities(context);
 
-            //ExportEntities(context);
+            ExportEntities(context);
         }
 
         private static void ImportEntities(StationsDbContext context, string baseDir = @"..\..\..\..\Datasets\")
         {
             const string exportDir = "../../../ImportResults/";
 
-            //var stations = DataProcessor.Deserializer.ImportStations(context, File.ReadAllText(baseDir + "stations.json"));
+            var stations = DataProcessor.Deserializer.ImportStations(context, File.ReadAllText(baseDir + "stations.json"));
 
-            //PrintAndExportEntityToFile(stations, exportDir + "Stations.txt");
+            PrintAndExportEntityToFile(stations, exportDir + "Stations.txt");
 
             var classes = DataProcessor.Deserializer.ImportClasses(context, File.ReadAllText(baseDir + "classes.json"));
 
             PrintAndExportEntityToFile(classes, exportDir + "Classes.txt");
 
-            //var trains = DataProcessor.Deserializer.ImportTrains(context, File.ReadAllText(baseDir + "trains.json"));
+            var trains = DataProcessor.Deserializer.ImportTrains(context, File.ReadAllText(baseDir + "trains.json"));
 
-            //PrintAndExportEntityToFile(trains, exportDir + "Trains.txt");
+            PrintAndExportEntityToFile(trains, exportDir + "Trains.txt");
 
-            //var trips = DataProcessor.Deserializer.ImportTrips(context, File.ReadAllText(baseDir + "trips.json"));
+            var trips = DataProcessor.Deserializer.ImportTrips(context, File.ReadAllText(baseDir + "trips.json"));
 
-            //PrintAndExportEntityToFile(trips, exportDir + "Trips.txt");
+            PrintAndExportEntityToFile(trips, exportDir + "Trips.txt");
 
-            //var cards = DataProcessor.Deserializer.ImportCards(context, File.ReadAllText(baseDir + "cards.xml"));
+            var cards = DataProcessor.Deserializer.ImportCards(context, File.ReadAllText(baseDir + "cards.xml"));
 
-            //PrintAndExportEntityToFile(cards, exportDir + "Cards.txt");
+            PrintAndExportEntityToFile(cards, exportDir + "Cards.txt");
 
-            //var tickets = DataProcessor.Deserializer.ImportTickets(context, File.ReadAllText(baseDir + "tickets.xml"));
+            var tickets = DataProcessor.Deserializer.ImportTickets(context, File.ReadAllText(baseDir + "tickets.xml"));
 
-            //PrintAndExportEntityToFile(tickets, exportDir + "Tickets.txt");
+            PrintAndExportEntityToFile(tickets, exportDir + "Tickets.txt");
         }
 
         private static void ExportEntities(StationsDbContext context)

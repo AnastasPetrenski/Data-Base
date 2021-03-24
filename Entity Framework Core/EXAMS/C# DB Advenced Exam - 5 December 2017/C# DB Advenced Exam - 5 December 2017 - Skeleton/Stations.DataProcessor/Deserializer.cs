@@ -328,12 +328,14 @@ namespace Stations.DataProcessor
             var serializer = new XmlSerializer(typeof(XmlTicketSeatDto[]), new XmlRootAttribute("Tickets"));
             var dtos = serializer.Deserialize(new StringReader(xmlString)) as XmlTicketSeatDto[];
 
-            //N+1 problem escaping
+            //N+1 problem are escaped almost
             var trips = context
                 .Trips
                 .Include(x => x.OriginStation)
                 .Include(x => x.DestinationStation)
                 .Include(x => x.Train)
+                .Include(x => x.Train.TrainSeats)
+                //.Include(x => x.Train.TrainSeats.Select(z => z.SeatingClass))
                 .ToList();
 
             var seatAbbreviations = context.SeatingClasses.Select(x => x.Abbreviation).ToList();
@@ -375,11 +377,18 @@ namespace Stations.DataProcessor
                     continue;
                 }
 
+                //n+1 problem 
                 var trainSeats = context.TrainSeats.Include(x => x.SeatingClass).Where(x => x.TrainId == trip.TrainId).ToArray();
                 var seat = trainSeats.FirstOrDefault(x =>
                     x.SeatingClass.Abbreviation == seatClassAbbreviation
                     && x.Quantity >= seatNumber
                     && seatNumber > 0);
+
+                //trip.Train.TrainSeats.SeatingClass are not Included and an exception null reference was thrown
+                //var seat1 = trip.Train.TrainSeats.FirstOrDefault(x =>
+                //  x.SeatingClass.Abbreviation == seatClassAbbreviation
+                //  && x.Quantity >= seatNumber
+                //  && seatNumber > 0);
 
                 if (seat == null)
                 {
@@ -408,9 +417,18 @@ namespace Stations.DataProcessor
                     CustomerCard = customerCard
                 };
 
-                tickets.Add(ticket);
+                if (IsValid(ticket))
+                {
+                    tickets.Add(ticket);
 
-                sb.AppendLine($"Ticket from {ticket.Trip.OriginStation.Name} to {ticket.Trip.DestinationStation.Name} departing at {departureTime.ToString("dd/MM/yyyy HH:mm", CultureInfo.InvariantCulture)} imported.");
+                    sb.AppendLine($"Ticket from {ticket.Trip.OriginStation.Name} to {ticket.Trip.DestinationStation.Name} departing at {departureTime.ToString("dd/MM/yyyy HH:mm", CultureInfo.InvariantCulture)} imported.");
+                }
+                else
+                {
+                    sb.AppendLine(FailureMessage);
+                }
+
+                
             }
 
             context.Tickets.AddRange(tickets);
