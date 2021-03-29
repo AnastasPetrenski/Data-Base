@@ -1,0 +1,892 @@
+[
+  {
+    "Name": "SIS",
+    "Rating": "10.00",
+    "TotalIncomes": "184.04",
+    "ticketsCount": 17,
+    "customers": [
+      {
+        "FirstName": "Duff",
+        "LastName": "Honig",
+        "Balance": "82.17",
+        "TicketPrice": 12.13
+      },
+      {
+        "FirstName": "Duff",
+        "LastName": "Honig",
+        "Balance": "82.17",
+        "TicketPrice": 11.00
+      },
+      {
+        "FirstName": "Duff",
+        "LastName": "Honig",
+        "Balance": "82.17",
+        "TicketPrice": 9.13
+      },
+      {
+        "FirstName": "Etty",
+        "LastName": "Stockow",
+        "Balance": "372.02",
+        "TicketPrice": 15.00
+      },
+      {
+        "FirstName": "Etty",
+        "LastName": "Stockow",
+        "Balance": "372.02",
+        "TicketPrice": 7.00
+      },
+      {
+        "FirstName": "Etty",
+        "LastName": "Stockow",
+        "Balance": "372.02",
+        "TicketPrice": 9.13
+      },
+      {
+        "FirstName": "Davita",
+        "LastName": "Lister",
+        "Balance": "279.76",
+        "TicketPrice": 12.13
+      },
+      {
+        "FirstName": "Janet",
+        "LastName": "Matchett",
+        "Balance": "23.50",
+        "TicketPrice": 7.00
+      },
+      {
+        "FirstName": "Janet",
+        "LastName": "Matchett",
+        "Balance": "23.50",
+        "TicketPrice": 9.13
+      },
+      {
+        "FirstName": "Caralie",
+        "LastName": "Longthorn",
+        "Balance": "169.18",
+        "TicketPrice": 12.13
+      },
+      {
+        "FirstName": "Caralie",
+        "LastName": "Longthorn",
+        "Balance": "169.18",
+        "TicketPrice": 11.00
+      },
+      {
+        "FirstName": "Belinda",
+        "LastName": "Fraanchyonok",
+        "Balance": "14.69",
+        "TicketPrice": 7.00
+      },
+      {
+        "FirstName": "Belinda",
+        "LastName": "Fraanchyonok",
+        "Balance": "14.69",
+        "TicketPrice": 15.00
+      },
+      {
+        "FirstName": "Belinda",
+        "LastName": "Fraanchyonok",
+        "Balance": "14.69",
+        "TicketPrice": 12.13
+      },
+      {
+        "FirstName": "Merle",
+        "LastName": "Pinnell",
+        "Balance": "133.05",
+        "TicketPrice": 11.00
+      },
+      {
+        "FirstName": "Merle",
+        "LastName": "Pinnell",
+        "Balance": "133.05",
+        "TicketPrice": 9.13
+      },
+      {
+        "FirstName": "Arluene",
+        "LastName": "Farman",
+        "Balance": "118.33",
+        "TicketPrice": 15.00
+      }
+    ]
+  },
+  {
+    "Name": "Gui Si (Silk)",
+    "Rating": "9.00",
+    "TotalIncomes": "179.65",
+    "ticketsCount": 17,
+    "customers": [
+      {
+        "FirstName": "Caritta",
+        "LastName": "MacNeilley",
+        "Balance": "312.28",
+        "TicketPrice": 9.13
+      },
+      {
+        "FirstName": "Caritta",
+        "LastName": "MacNeilley",
+        "Balance": "312.28",
+        "TicketPrice": 7.00
+      },
+      {
+        "FirstName": "Jerrie",
+        "LastName": "O\\'Carroll",
+        "Balance": "306.90",
+        "TicketPrice": 11.00
+      },
+      {
+        "FirstName": "Jerrie",
+        "LastName": "O\\'Carroll",
+        "Balance": "306.90",
+        "TicketPrice": 11.00
+      },
+      {
+        "FirstName": "Jerrie",
+        "LastName": "O\\'Carroll",
+        "Balance": "306.90",
+        "TicketPrice": 11.00
+      },
+      {
+        "FirstName": "Jerrie",
+        "LastName": "O\\'Carroll",
+        "Balance": "306.90",
+        "TicketPrice": 11.00
+      },
+      {
+        "FirstName": "Rorie",
+        "LastName": "La Torre",
+        "Balance": "286.60",
+        "TicketPrice": 15.00
+      },
+      {
+        "FirstName": "Rorie",
+        "LastName": "La Torre",
+        "Balance": "286.60",
+        "TicketPrice": 7.00
+      },
+      {
+        "FirstName": "Tallulah",
+        "LastName": "McVeighty",
+        "Balance": "285.68",
+        "TicketPrice": 9.13
+      },
+      {
+        "FirstName": "Tallulah",
+        "LastName": "McVeighty",
+        "Balance": "285.68",
+        "TicketPrice": 7.00
+      },
+      {
+        "FirstName": "Marjy",
+        "LastName": "Starbeck",
+        "Balance": "264.20",
+        "TicketPrice": 12.13
+      },
+      {
+        "FirstName": "Marjy",
+        "LastName": "Starbeck",
+        "Balance": "264.20",
+        "TicketPrice": 12.13
+      },
+      {
+        "FirstName": "Donica",
+        "LastName": "Fossey",
+        "Balance": "230.60",
+        "TicketPrice": 15.00
+      },
+      {
+        "FirstName": "Base",
+        "LastName": "Feander",
+        "Balance": "213.94",
+        "TicketPrice": 9.13
+      },
+      {
+        "FirstName": "Base",
+        "LastName": "Feander",
+        "Balance": "213.94",
+        "TicketPrice": 7.00
+      },
+      {
+        "FirstName": "Henrie",
+        "LastName": "Jurges",
+        "Balance": "170.21",
+        "TicketPrice": 11.00
+      },
+      {
+        "FirstName": "Glenna",
+        "LastName": "Gibbs",
+        "Balance": "113.31",
+        "TicketPrice": 15.00
+      }
+    ]
+  },
+  {
+    "Name": "Host, The (Gwoemul)",
+    "Rating": "9.00",
+    "TotalIncomes": "22.00",
+    "ticketsCount": 2,
+    "customers": [
+      {
+        "FirstName": "Elmo",
+        "LastName": "Mehew",
+        "Balance": "13.14",
+        "TicketPrice": 15.00
+      },
+      {
+        "FirstName": "Elmo",
+        "LastName": "Mehew",
+        "Balance": "13.14",
+        "TicketPrice": 7.00
+      }
+    ]
+  },
+  {
+    "Name": "Fahrenhype 9/11",
+    "Rating": "8.00",
+    "TotalIncomes": "110.39",
+    "ticketsCount": 9,
+    "customers": [
+      {
+        "FirstName": "Chuck",
+        "LastName": "Udall",
+        "Balance": "94.09",
+        "TicketPrice": 12.13
+      },
+      {
+        "FirstName": "Whit",
+        "LastName": "Bidwell",
+        "Balance": "83.20",
+        "TicketPrice": 12.13
+      },
+      {
+        "FirstName": "Whit",
+        "LastName": "Bidwell",
+        "Balance": "83.20",
+        "TicketPrice": 11.00
+      },
+      {
+        "FirstName": "Marje",
+        "LastName": "Boutflour",
+        "Balance": "371.21",
+        "TicketPrice": 15.00
+      },
+      {
+        "FirstName": "Gretna",
+        "LastName": "Bellham",
+        "Balance": "299.37",
+        "TicketPrice": 7.00
+      },
+      {
+        "FirstName": "Gretna",
+        "LastName": "Bellham",
+        "Balance": "299.37",
+        "TicketPrice": 15.00
+      },
+      {
+        "FirstName": "Mariejeanne",
+        "LastName": "Varden",
+        "Balance": "229.88",
+        "TicketPrice": 12.13
+      },
+      {
+        "FirstName": "Mariejeanne",
+        "LastName": "Varden",
+        "Balance": "229.88",
+        "TicketPrice": 15.00
+      },
+      {
+        "FirstName": "Denny",
+        "LastName": "Plaice",
+        "Balance": "180.73",
+        "TicketPrice": 11.00
+      }
+    ]
+  },
+  {
+    "Name": "White Man's Burden",
+    "Rating": "7.00",
+    "TotalIncomes": "258.17",
+    "ticketsCount": 25,
+    "customers": [
+      {
+        "FirstName": "Liane",
+        "LastName": "Caherny",
+        "Balance": "59.87",
+        "TicketPrice": 7.00
+      },
+      {
+        "FirstName": "Liane",
+        "LastName": "Caherny",
+        "Balance": "59.87",
+        "TicketPrice": 15.00
+      },
+      {
+        "FirstName": "Evangelia",
+        "LastName": "Faustian",
+        "Balance": "28.90",
+        "TicketPrice": 9.13
+      },
+      {
+        "FirstName": "Evangelia",
+        "LastName": "Faustian",
+        "Balance": "28.90",
+        "TicketPrice": 7.00
+      },
+      {
+        "FirstName": "Evangelia",
+        "LastName": "Faustian",
+        "Balance": "28.90",
+        "TicketPrice": 15.00
+      },
+      {
+        "FirstName": "Jerrome",
+        "LastName": "Pucknell",
+        "Balance": "226.13",
+        "TicketPrice": 9.13
+      },
+      {
+        "FirstName": "Garreth",
+        "LastName": "Leys",
+        "Balance": "221.91",
+        "TicketPrice": 15.00
+      },
+      {
+        "FirstName": "Garreth",
+        "LastName": "Leys",
+        "Balance": "221.91",
+        "TicketPrice": 12.13
+      },
+      {
+        "FirstName": "Mackenzie",
+        "LastName": "Saddleton",
+        "Balance": "209.98",
+        "TicketPrice": 7.00
+      },
+      {
+        "FirstName": "Boris",
+        "LastName": "Bennike",
+        "Balance": "208.50",
+        "TicketPrice": 7.00
+      },
+      {
+        "FirstName": "Boris",
+        "LastName": "Bennike",
+        "Balance": "208.50",
+        "TicketPrice": 11.00
+      },
+      {
+        "FirstName": "Boris",
+        "LastName": "Bennike",
+        "Balance": "208.50",
+        "TicketPrice": 9.13
+      },
+      {
+        "FirstName": "Mercedes",
+        "LastName": "Gertray",
+        "Balance": "179.98",
+        "TicketPrice": 12.13
+      },
+      {
+        "FirstName": "Mercedes",
+        "LastName": "Gertray",
+        "Balance": "179.98",
+        "TicketPrice": 11.00
+      },
+      {
+        "FirstName": "Eula",
+        "LastName": "Bettlestone",
+        "Balance": "166.13",
+        "TicketPrice": 7.00
+      },
+      {
+        "FirstName": "Eula",
+        "LastName": "Bettlestone",
+        "Balance": "166.13",
+        "TicketPrice": 15.00
+      },
+      {
+        "FirstName": "Tibold",
+        "LastName": "Briztman",
+        "Balance": "125.66",
+        "TicketPrice": 7.00
+      },
+      {
+        "FirstName": "Tibold",
+        "LastName": "Briztman",
+        "Balance": "125.66",
+        "TicketPrice": 15.00
+      },
+      {
+        "FirstName": "Tibold",
+        "LastName": "Briztman",
+        "Balance": "125.66",
+        "TicketPrice": 12.13
+      },
+      {
+        "FirstName": "Zack",
+        "LastName": "Sellers",
+        "Balance": "125.27",
+        "TicketPrice": 9.13
+      },
+      {
+        "FirstName": "Zack",
+        "LastName": "Sellers",
+        "Balance": "125.27",
+        "TicketPrice": 7.00
+      },
+      {
+        "FirstName": "Celestine",
+        "LastName": "Skells",
+        "Balance": "120.33",
+        "TicketPrice": 9.13
+      },
+      {
+        "FirstName": "Celestine",
+        "LastName": "Skells",
+        "Balance": "120.33",
+        "TicketPrice": 7.00
+      },
+      {
+        "FirstName": "Queenie",
+        "LastName": "Schroeder",
+        "Balance": "102.12",
+        "TicketPrice": 12.13
+      },
+      {
+        "FirstName": "Queenie",
+        "LastName": "Schroeder",
+        "Balance": "102.12",
+        "TicketPrice": 11.00
+      }
+    ]
+  },
+  {
+    "Name": "Silent Partner, The",
+    "Rating": "7.00",
+    "TotalIncomes": "58.26",
+    "ticketsCount": 5,
+    "customers": [
+      {
+        "FirstName": "Jermayne",
+        "LastName": "Philimore",
+        "Balance": "238.30",
+        "TicketPrice": 9.13
+      },
+      {
+        "FirstName": "Genia",
+        "LastName": "Elsdon",
+        "Balance": "224.29",
+        "TicketPrice": 7.00
+      },
+      {
+        "FirstName": "Genia",
+        "LastName": "Elsdon",
+        "Balance": "224.29",
+        "TicketPrice": 15.00
+      },
+      {
+        "FirstName": "Chanda",
+        "LastName": "Fryer",
+        "Balance": "133.24",
+        "TicketPrice": 12.13
+      },
+      {
+        "FirstName": "Taryn",
+        "LastName": "Ripper",
+        "Balance": "102.50",
+        "TicketPrice": 15.00
+      }
+    ]
+  },
+  {
+    "Name": "Sorcerer",
+    "Rating": "6.00",
+    "TotalIncomes": "101.52",
+    "ticketsCount": 10,
+    "customers": [
+      {
+        "FirstName": "Ray",
+        "LastName": "MacDearmid",
+        "Balance": "77.69",
+        "TicketPrice": 9.13
+      },
+      {
+        "FirstName": "Ray",
+        "LastName": "MacDearmid",
+        "Balance": "77.69",
+        "TicketPrice": 7.00
+      },
+      {
+        "FirstName": "Marjy",
+        "LastName": "Starbeck",
+        "Balance": "264.20",
+        "TicketPrice": 7.00
+      },
+      {
+        "FirstName": "Marjy",
+        "LastName": "Starbeck",
+        "Balance": "264.20",
+        "TicketPrice": 15.00
+      },
+      {
+        "FirstName": "Marjy",
+        "LastName": "Starbeck",
+        "Balance": "264.20",
+        "TicketPrice": 12.13
+      },
+      {
+        "FirstName": "Faustina",
+        "LastName": "Gully",
+        "Balance": "15.00",
+        "TicketPrice": 9.13
+      },
+      {
+        "FirstName": "Garry",
+        "LastName": "Blackeby",
+        "Balance": "123.82",
+        "TicketPrice": 11.00
+      },
+      {
+        "FirstName": "Garry",
+        "LastName": "Blackeby",
+        "Balance": "123.82",
+        "TicketPrice": 9.13
+      },
+      {
+        "FirstName": "Garry",
+        "LastName": "Blackeby",
+        "Balance": "123.82",
+        "TicketPrice": 7.00
+      },
+      {
+        "FirstName": "Garry",
+        "LastName": "Blackeby",
+        "Balance": "123.82",
+        "TicketPrice": 15.00
+      }
+    ]
+  },
+  {
+    "Name": "Trojan Eddie",
+    "Rating": "5.00",
+    "TotalIncomes": "258.04",
+    "ticketsCount": 24,
+    "customers": [
+      {
+        "FirstName": "Marlyn",
+        "LastName": "Westcar",
+        "Balance": "94.04",
+        "TicketPrice": 15.00
+      },
+      {
+        "FirstName": "Marlyn",
+        "LastName": "Westcar",
+        "Balance": "94.04",
+        "TicketPrice": 12.13
+      },
+      {
+        "FirstName": "Kalle",
+        "LastName": "Beneze",
+        "Balance": "69.26",
+        "TicketPrice": 9.13
+      },
+      {
+        "FirstName": "Kalle",
+        "LastName": "Beneze",
+        "Balance": "69.26",
+        "TicketPrice": 7.00
+      },
+      {
+        "FirstName": "Randi",
+        "LastName": "Ferraraccio",
+        "Balance": "59.44",
+        "TicketPrice": 7.00
+      },
+      {
+        "FirstName": "Randi",
+        "LastName": "Ferraraccio",
+        "Balance": "59.44",
+        "TicketPrice": 15.00
+      },
+      {
+        "FirstName": "Randi",
+        "LastName": "Ferraraccio",
+        "Balance": "59.44",
+        "TicketPrice": 12.13
+      },
+      {
+        "FirstName": "Randi",
+        "LastName": "Ferraraccio",
+        "Balance": "59.44",
+        "TicketPrice": 11.00
+      },
+      {
+        "FirstName": "Randi",
+        "LastName": "Ferraraccio",
+        "Balance": "59.44",
+        "TicketPrice": 9.13
+      },
+      {
+        "FirstName": "Randi",
+        "LastName": "Ferraraccio",
+        "Balance": "59.44",
+        "TicketPrice": 9.13
+      },
+      {
+        "FirstName": "Sargent",
+        "LastName": "Sandbrook",
+        "Balance": "299.63",
+        "TicketPrice": 11.00
+      },
+      {
+        "FirstName": "Jillian",
+        "LastName": "Galvin",
+        "Balance": "260.05",
+        "TicketPrice": 11.00
+      },
+      {
+        "FirstName": "Jillian",
+        "LastName": "Galvin",
+        "Balance": "260.05",
+        "TicketPrice": 9.13
+      },
+      {
+        "FirstName": "Jillian",
+        "LastName": "Galvin",
+        "Balance": "260.05",
+        "TicketPrice": 7.00
+      },
+      {
+        "FirstName": "Walt",
+        "LastName": "Prendeville",
+        "Balance": "23.27",
+        "TicketPrice": 7.00
+      },
+      {
+        "FirstName": "Walt",
+        "LastName": "Prendeville",
+        "Balance": "23.27",
+        "TicketPrice": 15.00
+      },
+      {
+        "FirstName": "Cornall",
+        "LastName": "Winborn",
+        "Balance": "221.08",
+        "TicketPrice": 11.00
+      },
+      {
+        "FirstName": "Blinnie",
+        "LastName": "Kundert",
+        "Balance": "218.98",
+        "TicketPrice": 12.13
+      },
+      {
+        "FirstName": "Blinnie",
+        "LastName": "Kundert",
+        "Balance": "218.98",
+        "TicketPrice": 11.00
+      },
+      {
+        "FirstName": "Grace",
+        "LastName": "Skerritt",
+        "Balance": "216.74",
+        "TicketPrice": 15.00
+      },
+      {
+        "FirstName": "Henrie",
+        "LastName": "Jurges",
+        "Balance": "170.21",
+        "TicketPrice": 11.00
+      },
+      {
+        "FirstName": "Henrie",
+        "LastName": "Jurges",
+        "Balance": "170.21",
+        "TicketPrice": 9.13
+      },
+      {
+        "FirstName": "Henrie",
+        "LastName": "Jurges",
+        "Balance": "170.21",
+        "TicketPrice": 7.00
+      },
+      {
+        "FirstName": "Henrie",
+        "LastName": "Jurges",
+        "Balance": "170.21",
+        "TicketPrice": 15.00
+      }
+    ]
+  },
+  {
+    "Name": "Prey, The (La proie)",
+    "Rating": "5.00",
+    "TotalIncomes": "216.69",
+    "ticketsCount": 21,
+    "customers": [
+      {
+        "FirstName": "Trudi",
+        "LastName": "Whitlock",
+        "Balance": "88.47",
+        "TicketPrice": 11.00
+      },
+      {
+        "FirstName": "Trudi",
+        "LastName": "Whitlock",
+        "Balance": "88.47",
+        "TicketPrice": 12.13
+      },
+      {
+        "FirstName": "Duff",
+        "LastName": "Honig",
+        "Balance": "82.17",
+        "TicketPrice": 9.13
+      },
+      {
+        "FirstName": "Duff",
+        "LastName": "Honig",
+        "Balance": "82.17",
+        "TicketPrice": 9.13
+      },
+      {
+        "FirstName": "Duff",
+        "LastName": "Honig",
+        "Balance": "82.17",
+        "TicketPrice": 9.13
+      },
+      {
+        "FirstName": "Timoteo",
+        "LastName": "Achromov",
+        "Balance": "319.59",
+        "TicketPrice": 12.13
+      },
+      {
+        "FirstName": "Timoteo",
+        "LastName": "Achromov",
+        "Balance": "319.59",
+        "TicketPrice": 11.00
+      },
+      {
+        "FirstName": "Jerrie",
+        "LastName": "O\\'Carroll",
+        "Balance": "306.90",
+        "TicketPrice": 12.13
+      },
+      {
+        "FirstName": "Jerrie",
+        "LastName": "O\\'Carroll",
+        "Balance": "306.90",
+        "TicketPrice": 11.00
+      },
+      {
+        "FirstName": "Berry",
+        "LastName": "Simononsky",
+        "Balance": "283.28",
+        "TicketPrice": 11.00
+      },
+      {
+        "FirstName": "Marjy",
+        "LastName": "Starbeck",
+        "Balance": "264.20",
+        "TicketPrice": 12.13
+      },
+      {
+        "FirstName": "Marjy",
+        "LastName": "Starbeck",
+        "Balance": "264.20",
+        "TicketPrice": 12.13
+      },
+      {
+        "FirstName": "Bondy",
+        "LastName": "Linsay",
+        "Balance": "230.20",
+        "TicketPrice": 12.13
+      },
+      {
+        "FirstName": "Bondy",
+        "LastName": "Linsay",
+        "Balance": "230.20",
+        "TicketPrice": 11.00
+      },
+      {
+        "FirstName": "Bondy",
+        "LastName": "Linsay",
+        "Balance": "230.20",
+        "TicketPrice": 9.13
+      },
+      {
+        "FirstName": "Bondy",
+        "LastName": "Linsay",
+        "Balance": "230.20",
+        "TicketPrice": 7.00
+      },
+      {
+        "FirstName": "Millisent",
+        "LastName": "Hoyt",
+        "Balance": "218.96",
+        "TicketPrice": 9.13
+      },
+      {
+        "FirstName": "Franky",
+        "LastName": "Condit",
+        "Balance": "127.23",
+        "TicketPrice": 9.13
+      },
+      {
+        "FirstName": "Franky",
+        "LastName": "Condit",
+        "Balance": "127.23",
+        "TicketPrice": 7.00
+      },
+      {
+        "FirstName": "Marcellus",
+        "LastName": "Stove",
+        "Balance": "123.79",
+        "TicketPrice": 11.00
+      },
+      {
+        "FirstName": "Marcellus",
+        "LastName": "Stove",
+        "Balance": "123.79",
+        "TicketPrice": 9.13
+      }
+    ]
+  },
+  {
+    "Name": "Gloriously Wasted",
+    "Rating": "5.00",
+    "TotalIncomes": "62.26",
+    "ticketsCount": 5,
+    "customers": [
+      {
+        "FirstName": "Hyatt",
+        "LastName": "Lorking",
+        "Balance": "373.22",
+        "TicketPrice": 11.00
+      },
+      {
+        "FirstName": "Hyatt",
+        "LastName": "Lorking",
+        "Balance": "373.22",
+        "TicketPrice": 9.13
+      },
+      {
+        "FirstName": "Corrinne",
+        "LastName": "Von Oertzen",
+        "Balance": "138.94",
+        "TicketPrice": 15.00
+      },
+      {
+        "FirstName": "Corrinne",
+        "LastName": "Von Oertzen",
+        "Balance": "138.94",
+        "TicketPrice": 12.13
+      },
+      {
+        "FirstName": "Jena",
+        "LastName": "Baudinelli",
+        "Balance": "106.13",
+        "TicketPrice": 15.00
+      }
+    ]
+  }
+]
