@@ -1,0 +1,12 @@
+C:\Users\anastas\Desktop\Задачи от курс\SoftUni\08 EF Core\Entity Framework Core\Exams\C# DB Advanced Exam - 07 December 2019\TeisterMask\bin\Debug\netcoreapp2.1\TeisterMask.deps.json
+C:\Users\anastas\Desktop\Задачи от курс\SoftUni\08 EF Core\Entity Framework Core\Exams\C# DB Advanced Exam - 07 December 2019\TeisterMask\bin\Debug\netcoreapp2.1\TeisterMask.runtimeconfig.json
+C:\Users\anastas\Desktop\Задачи от курс\SoftUni\08 EF Core\Entity Framework Core\Exams\C# DB Advanced Exam - 07 December 2019\TeisterMask\bin\Debug\netcoreapp2.1\TeisterMask.runtimeconfig.dev.json
+C:\Users\anastas\Desktop\Задачи от курс\SoftUni\08 EF Core\Entity Framework Core\Exams\C# DB Advanced Exam - 07 December 2019\TeisterMask\bin\Debug\netcoreapp2.1\TeisterMask.dll
+C:\Users\anastas\Desktop\Задачи от курс\SoftUni\08 EF Core\Entity Framework Core\Exams\C# DB Advanced Exam - 07 December 2019\TeisterMask\bin\Debug\netcoreapp2.1\TeisterMask.pdb
+C:\Users\anastas\Desktop\Задачи от курс\SoftUni\08 EF Core\Entity Framework Core\Exams\C# DB Advanced Exam - 07 December 2019\TeisterMask\obj\Debug\netcoreapp2.1\TeisterMask.csprojAssemblyReference.cache
+C:\Users\anastas\Desktop\Задачи от курс\SoftUni\08 EF Core\Entity Framework Core\Exams\C# DB Advanced Exam - 07 December 2019\TeisterMask\obj\Debug\netcoreapp2.1\TeisterMask.AssemblyInfoInputs.cache
+C:\Users\anastas\Desktop\Задачи от курс\SoftUni\08 EF Core\Entity Framework Core\Exams\C# DB Advanced Exam - 07 December 2019\TeisterMask\obj\Debug\netcoreapp2.1\TeisterMask.AssemblyInfo.cs
+C:\Users\anastas\Desktop\Задачи от курс\SoftUni\08 EF Core\Entity Framework Core\Exams\C# DB Advanced Exam - 07 December 2019\TeisterMask\obj\Debug\netcoreapp2.1\TeisterMask.csproj.CoreCompileInputs.cache
+C:\Users\anastas\Desktop\Задачи от курс\SoftUni\08 EF Core\Entity Framework Core\Exams\C# DB Advanced Exam - 07 December 2019\TeisterMask\obj\Debug\netcoreapp2.1\TeisterMask.dll
+C:\Users\anastas\Desktop\Задачи от курс\SoftUni\08 EF Core\Entity Framework Core\Exams\C# DB Advanced Exam - 07 December 2019\TeisterMask\obj\Debug\netcoreapp2.1\TeisterMask.pdb
+C:\Users\anastas\Desktop\Задачи от курс\SoftUni\08 EF Core\Entity Framework Core\Exams\C# DB Advanced Exam - 07 December 2019\TeisterMask\obj\Debug\netcoreapp2.1\TeisterMask.genruntimeconfig.cache
